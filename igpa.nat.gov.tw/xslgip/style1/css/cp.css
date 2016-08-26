@@ -1,0 +1,196 @@
+@charset "big5";
+
+/* --------------------------------------------------------- ?‡ç?, è©³ç´°?§å®¹ */
+.Article {
+	margin: 20px 0px 30px 8px;
+	padding: 0px 10px 0px 0px;
+}
+.Article h1 {
+	font-size: 13px;
+	color: #046047;
+	padding: 0px;
+	margin: 0px 0px 3px;
+}
+.Article .Body {
+	font-size: 12px;
+	margin: 0px;
+	padding: 10px 0px 0px 18px;
+}
+.Article .Body .Image {
+	margin: 0px 15px 0px 5px;	
+	float: left;
+	width: 160px;
+}
+.Article .Body .Image img {
+	border: 1px solid #cccccc;
+	padding:2px;
+	margin:0px;
+	width: 160px;
+	float:inherit  ;
+}
+.Article .Body .Image p {
+	margin: 3px 0px 0px 0px;
+	padding: 0px;
+	color: #999999;
+	text-indent:0px;
+	
+}
+.Article .Body h2 {
+	font-size: 13px;
+	color: #666666;
+	letter-spacing: 0.15em;
+	margin-top: 1.5em;
+	margin-bottom: 0.2em;
+}
+.Article .Body h3 {
+	font-size: 13px;
+	color: #666666;
+	letter-spacing: 0.15em;
+	margin-top: 1.5em;
+	margin-bottom: 0.2em;
+}
+.Article .Body h4 {
+	font-size: 13px;
+	color: #666666;
+	letter-spacing: 0.15em;
+	margin-top: 1.5em;
+	margin-bottom: 0.2em;
+}
+.Article .Body p {
+	font-size: 12px;
+	line-height:20px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	margin-left: 12px;
+}
+.Article .Body table {
+	line-height: 22px;
+}
+.Article .Body ol ,
+.Article .Body ul {
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 5em;
+}
+.Article .Date {
+	text-align:left;
+	font: 12px sans-serif;
+	color: #666666;
+}
+/* --------------------------------------------------------- ?‡ç??§ç?è³‡æ?è¡¨æ ¼ */
+
+.Article .data_table {
+	line-height:22px;
+	border-collapse:collapse;
+	border-top: 2px solid #CCCCCC;
+	border-bottom: 2px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	width: 95%;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-size: 12px;
+	
+}
+.Article .data_table caption {
+	font-size: 13px;
+	text-align:left;
+	color: #666666;
+}
+.Article .data_table th {
+	padding: 3px 6px;
+	color: #666;
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background-color: #efefef;
+	
+}
+.Article .data_table td {
+	vertical-align: top;
+	padding: 3px 6px;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+/* ------------------------------------------------------- ?„ä»¶ä¸‹è? */
+.download{
+	line-height: 22px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-left: 12px;
+	clear:both;
+}
+.download h3{	
+	font-size: 13px;
+	color: #046047;
+	padding-top: 0px;
+	padding-left: 20px;
+	background-image: url(../images/icon_dl.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.download ul {
+	line-height: 25px;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	list-style-type: circle;
+	padding-left:20px;
+}
+.download li{		
+	display:block;	
+	padding-left:0px;
+}
+
+
+/* ------------------------------------------------------- ?¸é??¯ç? */
+.Relation {
+	padding: 12px 20px;
+	background: #FFFFFF;
+	margin: 25px -25px -30px -15px;
+	border-top: 2px solid #CCCCCC;
+}
+.Relation h3 {
+	font-size: 13px;
+	color: #990000;
+	height:25px;
+	letter-spacing: 0.15em;
+	margin: 8px 0px 8px 0px;
+	padding: 5px;
+	border: 1px dotted #CCCCCC;
+	background-color: #EEEAD9;
+}
+.Relation ol {
+	margin: 0px 0px 0px 40px;
+	padding: 0px;
+}
+.Relation ol li {
+	font-size: 13px;
+	line-height: 145%;
+	color: #86622B;
+	margin: 8px 0px 0px;
+	padding: 0px;
+}
+.Relation ol li .Title a {
+	font-size: 13px;
+	text-decoration: underline;
+}
+.Relation ol li .Title a:hover {
+}
+.Relation ol li .Brief {
+	font-size: 12px;
+	display: block;
+}
+.Relation ol li .Date {
+	margin-left: 0.8em;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #954017;
+}

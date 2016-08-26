@@ -1,0 +1,10 @@
+@charset "big5";
+/*   CSS Document */
+/*  */
+
+@import url("layout.css");
+@import url("common.css");
+@import url("com_table.css");
+@import url("cp.css");
+@import url("http://igpa.nat.gov.tw/xslgip/style1/css/lp.css");
+@import url("mp.css");
